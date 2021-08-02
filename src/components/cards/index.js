@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Image, Body, Title, Text } from "./styles/card";
+import { Container, Image, Body, Title, Text,Button } from "./styles/card";
 
 export default function Card({ children, ...resProps }) {
   console.log(resProps);
@@ -19,3 +19,7 @@ Card.Title = function CardTitle({ children, ...resProps }) {
 Card.Text = function CardText({ children, ...resProps }) {
   return <Text {...resProps}>{children}</Text>;
 };
+Card.Button = function CardButton({ children, ...resProps }) {
+    return <Button {...resProps}>{children}</Button>;
+  };
+  

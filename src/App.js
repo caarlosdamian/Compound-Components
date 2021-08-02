@@ -11,6 +11,7 @@ function App() {
           <Card.Body>
             <Card.Title> Carlos Damian</Card.Title>
             <Card.Text>dapecarlos@gmail.com</Card.Text>
+            <Card.Button>Click Me</Card.Button>
           </Card.Body>
         </Card>
     </div>
